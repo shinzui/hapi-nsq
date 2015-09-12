@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/shinzui/hapi-nsq#readme",
   "dependencies": {
-    "hapi": "^10.0.0",
+    "hapi": ">=9.2.0",
     "hoek": "^2.15.0",
     "joi": "^6.6.1",
     "nsqjs": "^0.7.6"
