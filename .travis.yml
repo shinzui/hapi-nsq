@@ -1,0 +1,10 @@
+language: node_js
+
+node_js:
+  - 0.12
+
+before_script:
+  - wget https://s3.amazonaws.com/bitly-downloads/nsq/nsq-0.3.5.linux-amd64.go1.4.2.tar.gz -O /tmp/nsq.tar.gz
+  - tar -xvf /tmp/nsq.tar.gz
+  - export PATH=$PATH:$PWD/nsq-0.3.5.linux-amd64.go1.4.2/bin/
+  - ./bin/start-nsq.sh
