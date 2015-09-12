@@ -23,13 +23,14 @@
   },
   "homepage": "https://github.com/shinzui/hapi-nsq#readme",
   "dependencies": {
-    "hapi": "^9.2.0",
-    "hoek": "^2.14.0",
-    "joi": "^6.6.1"
+    "hapi": "^10.0.0",
+    "hoek": "^2.15.0",
+    "joi": "^6.6.1",
+    "nsqjs": "^0.7.6"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.1",
     "code": "^1.5.0",
-    "lab": "^5.16.0"
+    "lab": "^5.16.1"
   }
 }
