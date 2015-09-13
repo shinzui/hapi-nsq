@@ -1,6 +1,6 @@
 {
   "name": "hapi-nsq",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "NSQ plugin for Hapi.js",
   "main": "lib/index.js",
   "scripts": {
